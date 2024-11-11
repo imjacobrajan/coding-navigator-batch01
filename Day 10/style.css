@@ -1,0 +1,27 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  font-size: 24px;
+}
+
+#div-1 {
+  background-color: #ff5c35;
+}
+
+#container {
+  /* position: relative; */
+}
+
+#div-2 {
+  position: sticky;
+  top: 0;
+  right: 30px;
+  background-color: #0068b1;
+}
+
+#div-3 {
+  background-color: #4fb06d;
+}
+
+/* fixed, absolute */

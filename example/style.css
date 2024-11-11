@@ -1,0 +1,39 @@
+.plate {
+  /* width: 500px; */
+  height: 500px;
+  background-color: grey;
+  position: relative;
+  background: url("https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4");
+}
+
+.candy1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.candy2 {
+  width: 100px;
+  height: 150px;
+  background-color: green;
+  position: absolute;
+
+  bottom: 40px;
+  right: 100px;
+
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px; */
+
+  border-radius: 50px;
+}
+
+.candy3 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+  border-radius: 50px;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}

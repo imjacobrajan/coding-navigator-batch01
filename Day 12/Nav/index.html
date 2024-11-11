@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+      .logo {
+        width: 50px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2874f0;
+      }
+
+      ul {
+        display: flex;
+        gap: 10px;
+      }
+
+      ul li {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: #444;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      input {
+        border: 1px solid #d5d5d5;
+        padding: 2px;
+        width: 100px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="CN Logo" class="logo" />
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <input type="text" placeholder="search" />
+        <button>Go</button>
+      </div>
+    </header>
+  </body>
+</html>

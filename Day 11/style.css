@@ -1,0 +1,22 @@
+.block-element {
+  display: block;
+  background-color: lightblue;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.inline-element {
+  background-color: lightcoral;
+  display: inline;
+}
+
+.box {
+  background-color: tomato;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.box1 {
+  /* display: none; */
+}

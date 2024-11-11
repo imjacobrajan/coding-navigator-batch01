@@ -1,0 +1,49 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: grow;
+  animation-duration: 2s;
+  /* animation-iteration-count: 5; */
+  animation-timing-function: ease-in;
+  /* animation-direction: reverse; */
+  animation-fill-mode: backwards;
+
+  animation: grow 1s ease infinite;
+}
+
+@keyframes grow {
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+
+  50% {
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+  }
+
+  100% {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+}
+
+@keyframes grow1 {
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+}

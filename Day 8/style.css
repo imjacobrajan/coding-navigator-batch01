@@ -1,0 +1,52 @@
+h1 {
+  /* rgb */
+  /* background-color: #ff0000; */
+
+  /* rgba */
+  /* background-color: #ff000050; */
+
+  /* hsl */
+  /* background-color: hsl(0, 100%, 75%); */
+
+  /* color: #ff0000; */
+}
+
+/* .parent {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff0055;
+} */
+
+/* Descendant Selector */
+
+/* div p {
+  background-color: red;
+} */
+
+/* Child Selector */
+
+/* div > p {
+  background-color: tomato;
+} */
+
+/* Adjacent sibling selector */
+
+p + h2 {
+  background-color: tomato;
+}
+
+/* General Sibling selector */
+
+/* p ~ h2 {
+  background-color: tomato;
+} */
+
+a:hover {
+  color: red;
+}
